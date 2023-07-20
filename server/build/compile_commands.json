@@ -1,0 +1,122 @@
+[
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -mf16c -mfma -mavx -mavx2 -std=gnu11 -o CMakeFiles/ggml.dir/ggml.c.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/ggml.c",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/ggml.c"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -mf16c -mfma -mavx -mavx2 -std=gnu11 -o CMakeFiles/ggml.dir/k_quants.c.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/k_quants.c",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/k_quants.c"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/llama.dir/llama.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/llama.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/llama.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/tests/test-tokenizer-0.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/tests/test-tokenizer-0.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/tests/test-quantize-perf.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/tests/test-quantize-perf.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -mf16c -mfma -mavx -mavx2 -std=gnu11 -o CMakeFiles/test-grad0.dir/test-grad0.c.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/tests/test-grad0.c",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/tests/test-grad0.c"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/test-sampling.dir/test-sampling.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/tests/test-sampling.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/tests/test-sampling.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/tests/test-quantize-fns.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/tests/test-quantize-fns.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/. -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/common.dir/common.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/common.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/common.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/examples/main",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/. -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/main.dir/main.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/main/main.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/main/main.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/examples/quantize",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/quantize.dir/quantize.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/quantize/quantize.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/quantize/quantize.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/examples/quantize-stats",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/quantize-stats.dir/quantize-stats.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/quantize-stats/quantize-stats.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/quantize-stats/quantize-stats.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/examples/perplexity",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/. -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/perplexity.dir/perplexity.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/perplexity/perplexity.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/perplexity/perplexity.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/examples/embedding",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/. -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/embedding.dir/embedding.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/embedding/embedding.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/embedding/embedding.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/examples/save-load-state",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/. -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/save-load-state.dir/save-load-state.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/save-load-state/save-load-state.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/save-load-state/save-load-state.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/examples/benchmark",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/. -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/benchmark.dir/benchmark-matmult.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/benchmark/benchmark-matmult.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/benchmark/benchmark-matmult.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/examples/baby-llama",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/. -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/baby-llama.dir/baby-llama.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/baby-llama/baby-llama.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/baby-llama/baby-llama.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/examples/train-text-from-scratch",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/. -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/train-text-from-scratch.dir/train-text-from-scratch.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/train-text-from-scratch/train-text-from-scratch.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/train-text-from-scratch/train-text-from-scratch.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/examples/simple",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/. -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/simple.dir/simple.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/simple/simple.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/simple/simple.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/examples/embd-input",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/. -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/embdinput.dir/embd-input-lib.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/embd-input/embd-input-lib.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/embd-input/embd-input-lib.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/examples/embd-input",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/. -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/embd-input-test.dir/embd-input-test.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/embd-input/embd-input-test.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/embd-input/embd-input-test.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/examples/server",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -DSERVER_VERBOSE=1 -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/server -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/. -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/server.dir/server.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/server/server.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/server/server.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/pocs/vdot",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/pocs -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/. -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/q8dot.dir/q8dot.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/pocs/vdot/q8dot.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/pocs/vdot/q8dot.cpp"
+},
+{
+  "directory": "/Users/johnjones/Developer/file-embedding-search/server/build/pocs/vdot",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_USE_ACCELERATE -DGGML_USE_K_QUANTS -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/pocs -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/. -I/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/. -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -std=gnu++11 -o CMakeFiles/vdot.dir/vdot.cpp.o -c /Users/johnjones/Developer/file-embedding-search/server/llama.cpp/pocs/vdot/vdot.cpp",
+  "file": "/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/pocs/vdot/vdot.cpp"
+}
+]

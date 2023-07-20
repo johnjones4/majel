@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/ggml.h
+stdint.h
+-
+stddef.h
+-
+stdbool.h
+-
+
+/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/tests/test-grad0.c
+ggml.h
+/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/tests/ggml.h
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+

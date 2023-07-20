@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/baby-llama/baby-llama.cpp
+ggml.h
+/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/examples/baby-llama/ggml.h
+vector
+-
+cassert
+-
+random
+-
+cstring
+-
+
+/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/ggml.h
+stdint.h
+-
+stddef.h
+-
+stdbool.h
+-
+

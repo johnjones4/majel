@@ -1,0 +1,12 @@
+CREATE EXTENSION IF NOT EXISTS vector;
+
+CREATE TABLE IF NOT EXISTS idx (
+  id UUID PRIMARY KEY NOT NULL,
+  source VARCHAR(255) NOT NULL,
+  dockey VARCHAR(4096) NOT NULL,
+  url VARCHAR(4096)  NOT NULL,
+  modified TIMESTAMP NOT NULL,
+  embedding vector(1536) NOT NULL
+);
+
+CREATE UNIQUE INDEX idx_source_key ON idx (source,dockey);

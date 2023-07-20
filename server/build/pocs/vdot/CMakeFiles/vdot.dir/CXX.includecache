@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/ggml.h
+stdint.h
+-
+stddef.h
+-
+stdbool.h
+-
+
+/Users/johnjones/Developer/file-embedding-search/server/llama.cpp/pocs/vdot/vdot.cpp
+cstdio
+-
+vector
+-
+random
+-
+chrono
+-
+cstdlib
+-
+cmath
+-
+cassert
+-
+cstring
+-
+array
+-
+ggml.h
+-
+
