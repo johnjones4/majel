@@ -24,7 +24,7 @@ func main() {
 		log.Panic(err)
 	}
 
-	client := openai.NewClient("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")
+	client := openai.NewClient(os.Getenv("OPEN_API_KEY"))
 
 	sourcer := &sources.CoreSourcer{
 		Sources: []core.Source{
@@ -47,5 +47,5 @@ func main() {
 		},
 	}
 	apiInst.Configure()
-	http.ListenAndServe(":8080", apiInst.Mux)
+	http.ListenAndServe(os.Getenv("HTTP_HOST"), apiInst.Mux)
 }
