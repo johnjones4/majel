@@ -67,7 +67,7 @@ func (c *FileSourcer) crawl(ctx context.Context, parsers []core.Parser, document
 			var doc core.Document
 			doc.Source = "filesystem"
 			doc.Key = filePath
-			doc.Modified = info.ModTime()
+			doc.Modified = info.ModTime().UTC()
 			doc.URL = "file://" + doc.Key
 
 			rdoc, err := c.Retreive(ctx, parsers, &doc)

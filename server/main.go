@@ -37,7 +37,7 @@ func main() {
 		Index:        idx,
 	}
 
-	// go sourcer.Start(cancellable)
+	go sourcer.Start(cancellable)
 
 	apiInst := api.API{
 		Funcs: &funcs.FuncsImpl{

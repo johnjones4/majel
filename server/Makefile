@@ -5,5 +5,5 @@ table:
 	psql dev -h localhost -d dev < schema.sql
 
 run:
-	go run . 
+	HTTP_HOST=:8080 DATABASE_URL=postgresql://dev:dev@localhost/dev go run . 
 

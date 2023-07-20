@@ -7,6 +7,7 @@ import (
 	"main/core"
 	"time"
 
+	"github.com/jackc/pgx/v4"
 	"github.com/sashabaranov/go-openai"
 )
 
@@ -53,11 +54,22 @@ func (cc *CoreSourcer) Start(ctx context.Context) {
 				case <-ctx.Done():
 					break docqueue
 				case rawdoc := <-docs:
-					//todo check date
 					log.Println(rawdoc.DocumentMetadata)
-					doc := core.Document{
-						DocumentMetadata: rawdoc.DocumentMetadata,
+					var doc core.Document
+					doc, err := cc.Index.Get(ctx, rawdoc.Source, rawdoc.Key)
+					if err != nil && err != pgx.ErrNoRows {
+						log.Println(err)
+						continue
 					}
+					if err == pgx.ErrNoRows {
+						doc = core.Document{
+							DocumentMetadata: rawdoc.DocumentMetadata,
+						}
+					} else if rawdoc.Modified.Equal(doc.Modified) || rawdoc.Modified.Before(doc.Modified) {
+						continue
+					}
+					log.Println(rawdoc.Modified, doc.Modified)
+
 					resp, err := cc.OpenAIClient.CreateEmbeddings(ctx, openai.EmbeddingRequestStrings{
 						Input: []string{rawdoc.TextContents},
 						Model: openai.AdaEmbeddingV2,

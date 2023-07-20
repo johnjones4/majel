@@ -30,7 +30,7 @@ type SearchResult struct {
 }
 
 type Index interface {
-	Get(ctx context.Context, id string) (Document, error)
+	Get(ctx context.Context, source string, key string) (Document, error)
 	Upsert(ctx context.Context, file *Document) error
 	Search(ctx context.Context, embeddings []float32, limit int) ([]SearchResult, error)
 }
